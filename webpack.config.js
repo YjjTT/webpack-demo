@@ -5,8 +5,15 @@ module.exports = {
 	module: {
 		rules: [
 			{
-				test: /\.jpeg$/,
-				use: { loader: 'file-loader' }
+				test: /\.(jpeg|jpg|png|gif)$/,
+				use: { 
+					loader: 'file-loader',
+					options: {
+						// placeholder 占位符
+						name: '[name].[ext]',
+						outputPath: 'images/'
+					}
+				}
 			}
 		]
 	},
