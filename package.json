@@ -4,11 +4,12 @@
   "description": "",
   "private": true,
   "scripts": {
-  	"bundle": "webpack", // npm run bundle -> npx webpack
+    "bundle": "webpack"
   },
   "author": "yjjtt",
   "license": "ISC",
   "devDependencies": {
+    "file-loader": "^4.1.0",
     "webpack": "^4.36.1",
     "webpack-cli": "^3.3.6"
   }
