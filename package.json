@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
-  "scripts": {},
+  "scripts": {
+  	"bundle": "webpack", // npm run bundle -> npx webpack
+  },
   "author": "yjjtt",
   "license": "ISC",
   "devDependencies": {
