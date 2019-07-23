@@ -1,1 +1,8 @@
-var avatar = require('./pickachu.jpeg')
+
+import avatar from './pickachu.jpeg'
+
+var img = new Image();
+img.src = avatar;
+
+var root = document.getElementById('root')
+root.append(img)
